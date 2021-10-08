@@ -21,7 +21,7 @@ func Test_Chain(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-
+	defer c.C.Client.Close()
 	//b := polkadot.PolkadotEventRecords{}
 	b := bifrost.BifrostEventRecords{}
 	existMap := getEventTypesFieldName(b)
@@ -58,6 +58,7 @@ func Test_Chain2(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
+	defer c.C.Client.Close()
 	for _, mod := range c.Meta.AsMetadataV12.Modules {
 		if mod.HasEvents {
 			for _, event := range mod.Events {
