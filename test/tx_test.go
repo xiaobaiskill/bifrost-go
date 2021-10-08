@@ -2,9 +2,9 @@ package test
 
 import (
 	"fmt"
-	"github.com/JFJun/bifrost-go/client"
-	"github.com/JFJun/bifrost-go/expand"
-	"github.com/JFJun/bifrost-go/tx"
+	"github.com/xiaobaiskill/bifrost-go/client"
+	"github.com/xiaobaiskill/bifrost-go/expand"
+	"github.com/xiaobaiskill/bifrost-go/tx"
 	"github.com/JFJun/go-substrate-crypto/crypto"
 	"testing"
 )

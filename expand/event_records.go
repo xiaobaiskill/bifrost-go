@@ -3,9 +3,9 @@ package expand
 import (
 	"bytes"
 	"fmt"
-	"github.com/JFJun/bifrost-go/expand/bifrost"
-	"github.com/JFJun/bifrost-go/expand/kusama"
-	"github.com/JFJun/bifrost-go/expand/polkadot"
+	"github.com/xiaobaiskill/bifrost-go/expand/bifrost"
+	"github.com/xiaobaiskill/bifrost-go/expand/kusama"
+	"github.com/xiaobaiskill/bifrost-go/expand/polkadot"
 	"github.com/JFJun/go-substrate-rpc-client/v3/scale"
 	"github.com/JFJun/go-substrate-rpc-client/v3/types"
 	"strings"

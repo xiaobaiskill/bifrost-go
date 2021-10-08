@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/JFJun/bifrost-go/expand"
-	"github.com/JFJun/bifrost-go/models"
-	"github.com/JFJun/bifrost-go/utils"
+	"github.com/xiaobaiskill/bifrost-go/expand"
+	"github.com/xiaobaiskill/bifrost-go/models"
+	"github.com/xiaobaiskill/bifrost-go/utils"
 	"github.com/JFJun/go-substrate-crypto/ss58"
 
 	gsrc "github.com/JFJun/go-substrate-rpc-client/v3"

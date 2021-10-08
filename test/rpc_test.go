@@ -3,7 +3,7 @@ package test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/JFJun/bifrost-go/client"
+	"github.com/xiaobaiskill/bifrost-go/client"
 	"github.com/JFJun/go-substrate-crypto/ss58"
 	"testing"
 )

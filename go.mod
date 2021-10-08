@@ -1,4 +1,4 @@
-module github.com/JFJun/bifrost-go
+module github.com/xiaobaiskill/bifrost-go
 
 go 1.15
 

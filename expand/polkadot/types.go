@@ -1,7 +1,7 @@
 package polkadot
 
 import (
-	"github.com/JFJun/bifrost-go/expand/base"
+	"github.com/xiaobaiskill/bifrost-go/expand/base"
 	"github.com/JFJun/go-substrate-rpc-client/v3/types"
 )
 
